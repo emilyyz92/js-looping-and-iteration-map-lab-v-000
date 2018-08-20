@@ -7,5 +7,7 @@ function lowerCaseDrivers(array) {
 }
 
 function nameToAttributes(array) {
-
+  return array.map(function(string) {
+    return Object.assign({}, )
+  })
 }
