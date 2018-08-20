@@ -12,3 +12,4 @@ function nameToAttributes(array) {
     return Object.assign({}, {firstName: `${array[0]}`}, {lastName: `${array[1]}`});
   })
 }
+
