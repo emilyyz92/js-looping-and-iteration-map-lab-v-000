@@ -8,6 +8,6 @@ function lowerCaseDrivers(array) {
 
 function nameToAttributes(array) {
   return array.map(function(string) {
-    return Object.assign({}, {firstName: `${string[0]}`}, {lastName: `${string[1]}`})
+    return Object.assign({}, {firstName: `${string[0]}`}, {lastName: `${string[1]}`});
   })
 }
