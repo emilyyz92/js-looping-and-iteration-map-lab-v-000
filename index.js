@@ -5,3 +5,7 @@ function lowerCaseDrivers(array) {
   }
 );
 }
+
+function nameToAttributes(array) {
+
+}
