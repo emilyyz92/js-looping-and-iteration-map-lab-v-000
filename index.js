@@ -13,3 +13,9 @@ function nameToAttributes(array) {
   })
 }
 
+function attributesToPhrase(array) {
+  function phrase(object) {
+    return `${object["name"]} is from ${object["hometown"]}`
+  }
+  return array.map(phrase(object))
+}
